@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="images/logo.png" alt="logotype">
+			</div>
+			<h1>Цены и варианты защиты</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<section class="car-classes">
+				<div class="car-class">
+					<h5>Класс mini*</h5>
+					<img src="images/class-mini.jpg" alt="mini">
+					<p>Рассчитать стоимость</p>
+				</div>
+				<div class="car-class">
+					<h5>Средний класс*</h5>
+					<img src="images/class-middle.jpg" alt="middle">
+					<p>Рассчитать стоимость</p>
+				</div>
+				<div class="car-class">
+					<h5>Премиум класс*</h5>
+					<img src="images/class-premium.jpg" alt="premium">
+					<p class="car-class-active">Рассчитать стоимость</p>
+				</div>
+			</section>
+			<section class="car-plans">
+				<div class="cars-images">
+					<div class="cars-img">
+						<img src="images/selectedcar.jpg" alt="car" class="hidden" data-picture="p-parts">
+						<img src="images/premium-minimum.jpg" alt="car" class="hidden" data-picture="p-min">
+						<img src="images/premium-standart.jpg" alt="car" class="hidden" data-picture="p-standart">
+						<img src="images/premium-standart+.jpg" alt="car" class="hidden" data-picture="p-standart-plus">
+						<img src="images/premium-standart++.jpg" alt="car" data-picture="p-standart-2plus">
+						<img src="images/premium-standart+++.jpg" alt="car" class="hidden" data-picture="p-standart-3plus">
+					</div>
+					<div class="cars-parts">
+						<img src="images/part-1.png" alt="car-part" class="hidden" data-part="optic">
+						<img src="images/part-2.png" alt="car-part" class="hidden" data-part="hood">
+						<img src="images/part-3.png" alt="car-part" class="hidden" data-part="front-bumper">
+						<img src="images/part-6.png" alt="car-part" class="hidden" data-part="rear-bumper">
+						<img src="images/part-9.png" alt="car-part" class="hidden" data-part="doors">
+						<img src="images/part-10.png" alt="car-part" class="hidden" data-part="inner-steps">
+						<img src="images/part-11.png" alt="car-part" class="hidden" data-part="outer-steps">
+						<img src="images/part-12.png" alt="car-part" class="hidden" data-part="rear-wings">
+					</div>
+					<div class="plan-cost">
+						<div class="total-price">
+							<h6>Цена:</h6>
+							<span class="work">Материалы + работа</span>
+							<span class="price">7000 руб.</span>
+						</div>
+						<button>Позвоните мне</button>
+					</div>
+				</div>
+				<aside>
+					<ul>
+						<li data-picture="p-min">Минимальный</li>
+						<li data-picture="p-standart">Стандарт</li>
+						<li data-picture="p-standart-plus">Стандарт+</li>
+						<li class="tariff-default tariff-active" data-picture="p-standart-2plus">Стандарт++</li>
+						<li data-picture="p-standart-3plus">Стандарт+++</li>
+						<li data-picture="p-standart-3plus">Целиком</li>
+						<li class="partials-plan" data-picture="p-parts">
+							<p class="partials-plan-name">Частями
+								<i class="fas fa-angle-up"></i>
+								<i class="fas-hide fas fa-angle-down"></i>
+							</p>
+							<ul class="hidden partials-plan-list">
+								<li data-part="optic">Оптика</li>
+								<li data-part="inner-steps">Пороги внутренние</li>
+								<li data-part="outer-steps">Пороги наружные</li>
+								<li class="tariff-active" data-part="doors">Двери (4шт)</li>
+								<li data-part="rear-wings">Задние крылья</li>
+								<li data-part="hood">Капот</li>
+								<li data-part="front-bumper">Перений бампер</li>
+								<li data-part="rear-bumper">Задний бампер</li>
+							</ul>
+						</li>
+					</ul>
+				</aside>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
